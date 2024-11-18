@@ -14,42 +14,49 @@
         </Grid.RowDefinitions>
         <HorizontalStackLayout Grid.Row="0" Spacing="10">
             <Button
+                x:Name="ts_stocks"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Text="Stocks Master"
                 WidthRequest="150" />
             <Button
+                x:Name="ts_StockOut"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Text="Stock-out"
                 WidthRequest="150" />
             <Button
+                x:Name="ts_Return"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Text="Stock Return"
                 WidthRequest="150" />
             <Button
+                x:Name="ts_ManageUsers"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Text="Manage Users"
                 WidthRequest="150" />
             <Button
+                x:Name="ts_Report"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Text="Report"
                 WidthRequest="150" />
             <Button
+                x:Name="ts_settings"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Text="Settings"
                 WidthRequest="150" />
             <Button
+                x:Name="ts_Login"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill"
                 SemanticProperties.Hint="Counts the number of times you click"
