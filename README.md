@@ -17,5 +17,5 @@ Setup/Installation
 7. Press the F5 key on your keyboard to run this Inventory System Project.
 
 Admin Access Information:
-Username: admin
-Password: admin
+- Username: admin
+- Password: admin
