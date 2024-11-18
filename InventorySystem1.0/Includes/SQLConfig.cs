@@ -13,7 +13,7 @@ namespace InventorySystem1._0.Includes
     class SQLConfig
     {
 
-        private MySqlConnection con = new MySqlConnection("server=localhost;user id=root;database=db_inventory;sslMode=none");
+        private MySqlConnection con = new MySqlConnection("server=localhost;user id=root;password=00000000;database=db_inventory;sslMode=none");
         private MySqlCommand cmd;
         private MySqlDataAdapter da;
         public DataTable dt; 
